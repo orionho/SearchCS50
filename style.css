@@ -1,0 +1,65 @@
+form{
+    color: blue;
+    text-align: center;
+}
+ul{
+    text-align: right;
+}
+div1{
+    background-color: blue;
+}
+h1{
+    text-align: center;
+}
+.round{
+    width: 15%;
+    height: 25px;
+    border-radius: 25px;
+    border: 1px solid black;
+    padding: 5px 50px 5px 50px;
+    margin-bottom: 15px;
+}
+.Google-Logo-Center{
+    text-align:center;
+    font-family: Sans-serif;
+    font-size: 90px;
+    padding: 50px 0px 0px 0px;
+}
+
+.Google-Logo{
+    position: relative;
+    font-family: Sans-serif;
+}
+.Advanced-Header{
+    font-family: Sans-serif;
+    position: relative;
+    left: 25px;
+}
+.Advanced-Search{
+    font-family: Sans-serif;
+    position: relative;
+    left: 25px;
+    margin-bottom: 30px;
+}
+
+.Advanced-Info{
+    color: black;
+    font-family: Sans-serif;
+    position: relative;
+    left: 920px;
+    bottom: 100px;
+}
+.bar{
+    position: relative;
+    top: 145px;
+    right: 100px;
+    width: 60%;
+    padding: 5px 5px 5px 0px;
+    margin-bottom: 15px;
+}
+.search-button{
+    position: relative;
+    top: 150px;
+    left: 200px;
+    background-color: lightblue;
+}
