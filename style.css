@@ -36,63 +36,93 @@ h1{
     position: relative;
     font-family: Sans-serif;
     float: left;
+    margin-left: auto;
 }
 #Advanced-Header{
     font-family: Sans-serif;
     position: relative;
     float: left;
-    top: 145px;
+    top: 130px;
     right: 140px;
+    margin-left: auto;
 }
-.Advanced-Search{
+#Advanced-Header h5{
+    margin-bottom: 30px;
+}
+/*.Advanced-Search{
     font-family: Sans-serif;
     position: relative;
     left: 25px;
     margin-bottom: 30px;
 }
+*/
+#bar input{
+    position: relative;
+    top: 145px;
+    right: 420px;
+    max-width: 600px;
+    min-width: 600px;
+    padding: 5px 0px 5px 0px;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
 
+@media (max-width: 1500px){
+    #bar input{
+        position: relative;
+        top: 145px;
+        right: 120px;
+        max-width: 40%;
+        min-width: 40%;
+        padding: 5px 0px 5px 0px;
+        margin-bottom: 15px;
+        float: left;
+        margin-left: auto;
+    }
+}
 #Advanced-Info{
     color: black;
     font-family: Sans-serif;
     position: relative;
-    left: 450px;
-    bottom: 100px;
-    overflow: hidden;
-    padding: 3px 5px 5px 50px;
+    left: 500px;
+    bottom: 90px;
+    text-align: left;
+    float: left;
+    margin-left: auto;
 }
-.Advanced-Info{
-    margin-top: 30px;
+/*.Advanced-Info{
+    font-size: small;
+    text-align: left;
     color: black;
     position: relative;
-    left: 250px;
-    bottom: 50px;
+    left: 500px;
+    bottom: 17px;
 }
-
-p{
-    margin: 0 0 10px;
-}
-
-#bar > input {
+*/
+#Advanced-Info h5{
     position: relative;
-    top: 145px;
-    right: 200px;
-    max-width: 600px;
-    min-width: 600px;
-    padding: 3px 5px 5px 5px;
-    margin-bottom: 15px;
-    overflow: hidden;
+    right: 25px;
+    font:bold;
+}
+#Advanced-Info p{
+    margin: 0 0 15px;
+    font-size: small;
+    color: black;
+    position: relative;
+    bottom: 25px;
 }
 
-@media (max-width: 1000px){
-    #bar > input{
-        max-width: 40%;
-        min-width: 40%;
-    }
+#Advanced-Info a1, a2{
+    position: relative;
+    bottom: 35px;
+    font-size: small
 }
+
 
 .search-button{
     position: relative;
-    top: 150px;
-    left: 200px;
+    top: 350px;
+    right: 475px;
     background-color: lightblue;
 }
