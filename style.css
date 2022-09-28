@@ -47,7 +47,7 @@ h1{
     margin-left: auto;
 }
 #Advanced-Header h5{
-    margin-bottom: 30px;
+    margin-bottom: 32px;
 }
 /*.Advanced-Search{
     font-family: Sans-serif;
@@ -63,7 +63,7 @@ h1{
     max-width: 600px;
     min-width: 600px;
     padding: 5px 0px 5px 0px;
-    margin-bottom: 15px;
+    margin-bottom: 2px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -76,7 +76,7 @@ h1{
         max-width: 40%;
         min-width: 40%;
         padding: 5px 0px 5px 0px;
-        margin-bottom: 15px;
+        margin-bottom: 2px;
         float: left;
         margin-left: auto;
     }
@@ -84,9 +84,9 @@ h1{
 #Advanced-Info{
     color: black;
     font-family: Sans-serif;
-    position: relative;
-    left: 500px;
-    bottom: 90px;
+    position: absolute;
+    left: 850px;
+    bottom: 310px;
     text-align: left;
     float: left;
     margin-left: auto;
