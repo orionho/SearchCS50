@@ -4,43 +4,42 @@
         <title>Advanced Search</title>
         <link rel="stylesheet" href="style.css">
     </head>
-    <body>
-        <ul style  = "list-style: none;">
-            <li><a href = "index.html">Google Search</a></li>
-        </ul>
-
-        <div id = "Advanced-Google-Logo">
-            <h2>Google</h2>
-            <h3 style = "color: red;">Advanced Search</h3>
-            <h4>Find pages with...</h4>
-        </div>
-
-        <div id = "Advanced-Header">
-            <h5>all these words:</h5>
-            <h5>this exact word or phrase:</h5>
-            <h5>any of these words:</h5>
-            <h5>none of these words:</h5>
-        </div>
-
-        <form action = "https://www.google.com/search">
-        <div id = "bar">
-            <p><input type = "text" name = "as_q"></p>
-            <p><input type = "text" name = "as_epq"></p>
-            <p><input type = "text" name = "as_oq"></p>
-            <p><input type = "text" name = "as_eq"></p>
-        </div>
-        <div id = "Advanced-Info">
-            <h5>To do this in the search box</h5><br>
-            <!-- <div class="Advanced-Info"> -->             
-            <p>Type the important words: tricolor rat terrier</p><br>
-            <p>Put exact words in quotes: "rat terrier"</p><br>
-            <p>Type OR between all the words you want: miniature OR standard</p><br>
-            <a1>Put a minus sign just before wrods you don't want:</a1><br>
-            <a2>-rodent, -"Jack Russell"</a2><br>
-        </div>
-        <div>
-            <input type = "submit" value = "Advanced Search" class = "search-button">
-        </div>
-        </form>
-    </body>
+    <div id = "wrapper">
+        <body>
+            <ul style  = "list-style: none;">
+                <li><a href = "index.html">Google Search</a></li>
+            </ul>
+            <div id = "Advanced-Google-Logo">
+                <h2>Google</h2>
+                <h3 style = "color: red;">Advanced Search</h3>
+                <h4>Find pages with...</h4>
+            </div>
+            <div id = "Advanced-Header">
+                <p>all these words:</p>
+                <p>this exact word or phrase:</p>
+                <p>any of these words:</p>
+                <p>none of these words:</p>
+            </div>
+            <form action = "https://www.google.com/search">
+                <div id = "bar">
+                    <p><input type = "text" name = "as_q"></p>
+                    <p><input type = "text" name = "as_epq"></p>
+                    <p><input type = "text" name = "as_oq"></p>
+                    <p><input type = "text" name = "as_eq"></p>
+                </div>
+                <div id = "Advanced-Info">
+                    <h5>To do this in the search box</h5><br>
+                    <!-- <div class="Advanced-Info"> -->             
+                    <p>Type the important words: tricolor rat terrier</p><br>
+                    <p>Put exact words in quotes: "rat terrier"</p><br>
+                    <p>Type OR between all the words you want: miniature OR standard</p><br>
+                    <a1>Put a minus sign just before wrods you don't want:</a1><br>
+                    <a2>-rodent, -"Jack Russell"</a2><br>
+                </div>
+                <div>
+                <input type = "submit" value = "Advanced Search" class = "search-button">
+                </div>
+            </form>
+        </body>
+    </div>
 </html>
