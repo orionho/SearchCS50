@@ -30,26 +30,33 @@ h1{
     text-align:center;
     font-family: Sans-serif;
     font-size: 90px;
-    padding: 50px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
 }
 
 #wrapper{
     margin: right;
-    Width: 1000px;
+    Width: 1500px;
 }
 
 #Advanced-Google-Logo{
     position: relative;
-    font-family: Sans-serif;
-    float: left;
-    margin-left: auto;
+    font-family: Sans-serif;  
 }
 #Advanced-Header{
     font-family: Sans-serif;
     position: relative;
-    right: 100px;
-    top: 160px;
-    margin-bottom: 15px;
+    left: 50px;
+    top: 75px;
+}
+
+#Advanced-Header h3{
+    margin: 0 0 50px;
+    color: red;
+    font-weight: normal;
+
+}
+#Advanced-Header p{ 
+    margin: 0 0 28px;
 }
 /*#Advanced-Header h5{
     margin-bottom: 32px;
@@ -65,30 +72,31 @@ h1{
 #bar{
     position: relative;   
     padding: 5px 0px 5px 0px;
-    left: 50px;
+    right: 200px;
+    bottom: 135px;
 }
 
 #bar input{
     max-width: 600px;
     min-width: 600px;
-    padding: 5px 0px 5px 0px;
+    padding: 5px 0px 5px 3px;
 }
 
-@media (max-width: 1500px){
+/*@media (max-width: 1500px){
     #bar input{
-        max-width: 40%;
-        min-width: 40%;
+        max-width: 20%;
+        min-width: 20%;
     }
 }
+*/
+
 #Advanced-Info{
     color: black;
     font-family: Sans-serif;
     position: relative;
-    left: 850px;
-    bottom: 310px;
+    left: 870px;
     text-align: left;
-    float: left;
-    margin-left: auto;
+    bottom: 370px;
 }
 /*.Advanced-Info{
     font-size: small;
@@ -105,7 +113,7 @@ h1{
     font:bold;
 }
 #Advanced-Info p{
-    margin: 0 0 15px;
+    margin: 0 0 12px;
     font-size: small;
     position: relative;
     bottom: 25px;
@@ -117,9 +125,15 @@ h1{
     font-size: small
 }
 
+@media (min-width: 0px) and (max-width: 1800px){
+    #Advanced-Info{
+        display: block;
+    }
+}
+
 .search-button{
     position: relative;
-    top: 350px;
-    right: 475px;
+    bottom: 270px;
+    left: 25px;
     background-color: lightblue;
 }
